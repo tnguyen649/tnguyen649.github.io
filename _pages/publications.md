@@ -74,14 +74,6 @@ permalink: /publications/
 
 ## List of Publications
 
-### Under Revision
-<div class="publications">
-  
-{% bibliography -f publications -q @*[published={{0}}]* %}
-
-</div> 
-
-### Published 
 <div class="publications">
 
 {%- for y in page.years %}
