@@ -24,10 +24,7 @@ He was born in 1995, Hanoi city, Vietnam. He received the Degree of Engineer in 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/IL33_mixmd.png" height="4" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/redock.png" class="img-responsive" height="3.8" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/Tung1.jpg" height="4" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" height="4" alt="Slide 3" />
