@@ -8,7 +8,7 @@ permalink: /
 
 ## About me
 
-###Tung Nguyen is a control theoretist.
+### Tung Nguyen is a control theoretist.
 
 Tung is currently pursuing a PhD and working on security in networked control systems with [André Teixeira](https://www.andre-teixeira.eu/) and Prof. [Alexander Medvedev](https://user.it.uu.se/~am/am.new.html) at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. Tung is one of the first members of [Uppsala Secure Learning Lab](https://uslc-lab.github.io/).
 
