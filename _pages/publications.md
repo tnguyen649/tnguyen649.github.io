@@ -14,7 +14,7 @@ permalink: /publications/
  
 
 
-<!--## Highlights
+## Highlights
 
 
 
@@ -69,7 +69,7 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>-->
+<p> &nbsp; </p>
 
 
 ## List of Publications
