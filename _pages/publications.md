@@ -1,7 +1,7 @@
 ---
-title: "Phong Lam - Publications"
+title: "Tung Nguyen - Publications"
 layout: gridlay
-excerpt: "Phong Lam -- Publications."
+excerpt: "Tung Nguyen -- Publications."
 sitemap: false
 years: [2024, 2023, 2022]
 permalink: /publications/
