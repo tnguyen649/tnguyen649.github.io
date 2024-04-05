@@ -9,7 +9,7 @@ permalink: /research/
 
 # Research
 
-# My life mission is to make people happier by utilizing control theory. 
+### My life mission is to make people happier by utilizing control theory. 
 
 
 ## Security in Networked Control Systems
