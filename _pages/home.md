@@ -9,7 +9,7 @@ permalink: /
 ### About me
 Tung Nguyen is a gym lover.
 
-Tung is currently pursuing a PhD and working on security in networked control systems with [André Teixeira](https://www.andre-teixeira.eu/) and Prof. Alexander Medvedev at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. Tung is one of the first memebers of Uppsala Secure Learning Lab.
+Tung is currently pursuing a PhD and working on security in networked control systems with [André Teixeira](https://www.andre-teixeira.eu/) and Prof. [Alexander Medvedev](https://user.it.uu.se/~am/am.new.html) at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. Tung is one of the first memebers of [Uppsala Secure Learning Lab](https://uslc-lab.github.io/).
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
