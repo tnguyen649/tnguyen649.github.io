@@ -8,7 +8,7 @@ permalink: /research/
 ---
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" style="float: left"/>
+
 # Research
 My vision is to develop control theory-based framework for secure networked control systems.
 <br />
