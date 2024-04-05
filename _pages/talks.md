@@ -1,7 +1,7 @@
 ---
-title: "Phong Lam - Talks"
+title: "Tung Nguyen - Talks"
 layout: gridlay2
-excerpt: "Phong Lam - Talks"
+excerpt: "Tung Nguyen - Talks"
 sitemap: false
 tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /talks/
