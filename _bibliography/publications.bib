@@ -177,6 +177,73 @@
   abstract = {This paper studies the day-ahead prediction of electricity consumption for power supply-demand balance in electric power networks. To handle the uncertainties in weather forecast and the nonlinearity relation between the electricity consumption and the weather conditions, this paper proposes a Radial Basis Function like Artificial Neural Network (RBF-like ANN) model with temperature, humidity, and sampling times as inputs. Then the Least Absolute Deviation, i.e., the L 1 norm condition, is employed as the optimization cost which is minimized in the model training process. To solve the L 1 optimization problem, two approaches, namely least square (L 2 ) based and alternating direction method of multipliers (ADMM), are utilized and compared. The simulations on real data collected in California shows that the latter approach performs better, and the number of neurons does not affect much to the prediction performance of the latter approach while it does influence on that of the former approach. Further, the proposed RBF-like ANN model equipped with ADMM solving approach provides reasonably good prediction of the electricity consumption in spite of the imprecise weather forecast.}
 }
 
+@article{binh2019adaptive,
+  title={An adaptive backstepping trajectory tracking control of a tractor trailer wheeled mobile robot},
+  author={Binh, Nguyen Thanh and Tung, Nguyen Anh and Nam, Dao Phuong and Quang, Nguyen Hong},
+  journal={International Journal of Control, Automation and Systems},
+  volume={17},
+  pages={465--473},
+  year={2019},
+  publisher={Springer},
+  pdf = {2019_IJCAS_Binh},
+  doi = {10.1007/s12555-017-0711-0},
+  abtract = {The considered Tractor Trailer Wheeled Mobile Robot (TTWMR) is type of Mobile Robot including a master robot – Tractor and slave robots – Trailers which moves along Tractor to track a given desired trajectory. The main difficulties of the stabilization and the tracking control of TTWMR are due to nonlinear and underactuated systems subjected to nonholonomic constraints. In order to overcome these problems, firstly, we develop the model of TTWMR and transform the tracking error model to the triangular form to propose a control law and an adaptive law. Secondly, the varying time state feedback controllers are designed to generate actuator torques by using Backstepping technique and Lyapunov direct’s method, in that these are able to guarantee the stability of the whole system including kinematics and dynamics. In addition, the Babarlat’s lemma is used to prove that the proposed tracking errors converge to the origin and the proposed adaptive law is carried on to tackle unknown parameter problem. The simulations are implemented to demonstrate the effective performances of the proposed adaptive law and the proposed control law.}
+}
+
+@inproceedings{anh2017adaptive,
+  title={An adaptive control law against time-varying delays in bilateral teleoperation systems},
+  author={Anh, Tran Hoang and Tung, Nguyen Anh and Binh, Nguyen Thanh and Nam, Dao Phuong and Van Tu, Vu},
+  booktitle={2017 International Conference on System Science and Engineering (ICSSE)},
+  pages={520--524},
+  year={2017},
+  organization={IEEE},
+  pdf = {2017_ICSSE_Anh},
+  doi = {10.1109/ICSSE.2017.8030928},
+  abstract = {Bilateral teleoperation is a robotic system helping humans to work with the remote environment through a dual robot which includes a local robot and a remote robot operating with considerable time delays. In order to overcome this obstacle, beside the proposed wave variables and scattering approaches [1], [2], the conventional methods without wave variables has been pointed out in [3], [4] with constant time delay. In this paper, we propose a new adaptive control law based on Lyapunov's direct method to address time varying delays and position synchronization between two robots. In addition, force control was considered to guarantee tracking position error which converges to zero under humans and environment disturbances. The validity of them is based on theory and the good performance of the proposed controller shown in simulation results.}
+}
+
+@inproceedings{tung2017synchronization,
+  title={Synchronization control of bilateral teleoperation systems by using wave variable method under varying time delay},
+  author={Tung, Nguyen Anh and Binh, Nguyen Thanh and Anh, Tran Hoang and Nam, Dao Phuong and Dong, Nguyen Minh},
+  booktitle={2017 International Conference on System Science and Engineering (ICSSE)},
+  pages={499--503},
+  year={2017},
+  organization={IEEE},
+  pdf = {2017_ICSSE_Tung},
+  doi = {10.1109/ICSSE.2017.8030924},
+  abstract = {Teleoperation is a human control system enabling humans to interact with the remote environment through a dual robot system which includes a master robot and a slave robot operating in two different places. Wave variables and scattering approaches were proposed in [1],[2] with constant time delay, [3],[4] with varying time delays. This paper develops them based on different wave variables and new passivity control to guarantee the stability of the whole system against varying time delays without assumption that absolute derivative of time delays is smaller than one. The validity of the control law is based on passivity theory. In addition, force controller design is considered for increasing transparency of system. The simulation results demonstrate the good performance of the proposed controller for position synchronization.}
+}
+
+@inproceedings{binh2017robust,
+  title={Robust H-infinity backstepping control design of a wheeled inverted pendulum system},
+  author={Binh, Nguyen Thanh and Hung, Nguyen Manh and Tung, Nguyen Anh and Nam, Dao Phuong and Long, Nguyen Thanh},
+  booktitle={2017 International Conference on System Science and Engineering (ICSSE)},
+  pages={444--449},
+  year={2017},
+  organization={IEEE},
+  pdf = {2017_ICSSE_Binh},
+  doi = {10.1109/ICSSE.2017.8030914},
+  abstract = {The issue of applying H ∞ to control wheeled inverted pendulum is a topic of much concern on account of underactuated and nonlinear model. Authors in [1] selected Lyapunov candidate function presented following HJ equation. Almost previous papers using H - infinity to control WIP must assume that desired accelerator is zero and model is linearized at origin, leading to that system does not obtain global asymptotical stability when angular error leave neighborhood of origin. In this paper, we propose a new control method applying H - infinity and Backstepping technique based on Lyapunov direct method to stabilize tracking error to converge to arbitrary ball of origin. The simulation results of WIP under bounded disturbances demonstrate the effectiveness of the proposed controller.}
+}
+
+@inproceedings{binh2017approach,
+  title={An approach robust nonlinear model predictive control with state-dependent disturbances via linear matrix inequalities},
+  author={Binh, Nguyen Thanh and Tung, Nguyen Anh and Nam, Dao Phuong and Trung, Cao Thanh},
+  booktitle={2017 International Conference on System Science and Engineering (ICSSE)},
+  pages={418--422},
+  year={2017},
+  organization={IEEE},
+  pdf = {2017_ICSSE_Binh2},
+  doi = {10.1109/ICSSE.2017.8030909},
+  abstract = {The issue of nonlinear model predictive control has always been a topic of much concern. We will propose a new approach to robust nonlinear model predictive control to class of nonlinear model system with input constraint under state-dependent disturbances. The considered class of model is separated into linear part at current state, nonlinear part and state-dependent disturbances which are assumed to have their bound. The state-feedback control law is obtained by that solving optimization problem of upper bound of infinite horizon cost function with input constraint via LMIs. In this paper, in order to guarantee robust stability, the proposed approach must generates feasible regions which ensures the existence of a solution and stable region bounded by that. Moreover, these regions are able to contract after every sampling time to proof the robust stability of the system. The simulation results demonstrate the good performance of the proposed approach to RNMPC.}
+}
+
+
+
+
+
+
+
 
 
 
