@@ -3,7 +3,7 @@ title: "Tung Nguyen - Publications"
 layout: gridlay
 excerpt: "Tung Nguyen -- Publications."
 sitemap: false
-years: [2024, 2023, 2022]
+years: [2023, 2022, 2020, 2019, 2017]
 permalink: /publications/
 ---
 <!-- _pages/publications.md -->
@@ -73,6 +73,13 @@ permalink: /publications/
 
 
 ## List of Publications
+
+### Under Review
+<div class="publications">
+  
+{% bibliography -f uscl_publications -q @*[published={{0}}]* %}
+
+</div>
 
 <div class="publications">
 
