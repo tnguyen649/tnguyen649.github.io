@@ -112,5 +112,72 @@
   abstract = {This paper addresses the problem of distributed formation trajectory planning for multi-vehicle systems with collision avoidance among vehicles. Unlike some previous distributed formation trajectory planning methods, our proposed approach offers great flexibility in handling computational tasks for each vehicle when the global formation of all the vehicles changes. It affords the system the ability to adapt to the computational capabilities of the vehicles. Furthermore, global formation constraints can be handled at any selected vehicles. Thus, any formation change can be effectively updated without recomputing all local formations at all the vehicles. To guarantee the above features, we first formulate a dynamic consensus-based optimization problem to achieve desired formations while guaranteeing collision avoidance among vehicles. Then, the optimization problem is effectively solved by ADMM-based or alternating projection-based algorithms, which are also presented. Theoretical analysis is provided not only to ensure the convergence of our method but also to show that the proposed algorithm can surely be implemented in a fully distributed manner. The effectiveness of the proposed method is illustrated by a numerical example of a 9-vehicle system.}
 }
 
+@article{nguyen2023real,
+  title={Real-time distributed trajectory planning for mobile robots},
+  author={Nguyen, Binh and Nghiem, Truong and Nguyen, Linh and Nguyen, Anh Tung and Nguyen, Thang},
+  journal={IFAC-PapersOnLine},
+  volume={56},
+  number={2},
+  pages={2152--2157},
+  year={2023},
+  publisher={Elsevier},
+  pdf = {2023_IFACWC_Binh},
+  doi = {10.1016/j.ifacol.2023.10.1120},
+  abstract = {Efficiently planning trajectories for nonholonomic mobile robots in formation tracking is a fundamental yet challenging problem. Nonholonomic constraints, complexity in collision avoidance, and limited computing resources prevent the robots from being practically deployed in realistic applications. This paper addresses these difficulties by modeling each mobile platform as a nonholonomic motion and formulating trajectory planning as an optimization problem using model predictive control (MPC). That is, the optimization problem is subject to both nonholonomic motions and collision avoidance. To reduce computing costs in real time, the nonholonomic constraints are convexified by finding the closest nominal points to the nonholonomic motion, which are then incorporated into a convex optimization problem. Additionally, the predicted values from the previous MPC step are utilized to form linear avoidance conditions for the next step, preventing collisions among robots. The formulated optimization problem is solved by the alternating direction method of multiplier (ADMM) in a distributed manner, which makes the proposed trajectory planning method scalable. More importantly, the convergence of the proposed planning algorithm is theoretically proved while its effectiveness is validated in a synthetic environment.}
+}
+
+@article{nguyen2020dynamic,
+  title={Dynamic event-triggered time-varying formation control of second-order dynamic agents: Application to multiple quadcopters systems},
+  author={Nguyen, Anh Tung and Nguyen, Thanh Binh and Hong, Sung Kyung},
+  journal={Applied Sciences},
+  volume={10},
+  number={8},
+  pages={2814},
+  year={2020},
+  publisher={MDPI},
+  pdf = {2020_Applsci_Tung},
+  doi = {10.3390/app10082814},
+  abstract = {This paper investigates the problem of the time-varying formation control of a second-order dynamic agent based on a distributed dynamic event-triggered algorithm. In this problem, each agent can exchange the information of its position and velocity with its neighbors via limited communication ability. Our approach provides a new dynamic event triggering mechanism to reduce the number of triggering times while maintaining satisfactory control performance. Further, a novel Lyapunov function is proposed to guarantee that the group of agents asymptotically tracks the desired time-varying formation trajectory. The practical applicability of the event triggering mechanism is also indicated by excluding the Zeno behavior in the proposed control algorithm. Finally, the validity and effectiveness of the proposed method are demonstrated via illustrative examples of the time-varying formation flight for six quadcopters.}
+}
+
+@article{nguyen2019quadcopter,
+  title={Quadcopter adaptive trajectory tracking control: A new approach via backstepping technique},
+  author={Nguyen, Anh Tung and Xuan-Mung, Nguyen and Hong, Sung-Kyung},
+  journal={Applied Sciences},
+  volume={9},
+  number={18},
+  pages={3873},
+  year={2019},
+  publisher={MDPI},
+  pdf = {2019_Applsci_Tung},
+  doi = {10.3390/app9183873},
+  abstract = {Nowadays, quadcopter unmanned aerial vehicles play important roles in several real-world applications and the improvement of their control performance has become an increasingly attractive topic of a great number of studies. In this paper, we present a new approach for the design and stability analysis of a quadcopter adaptive trajectory tracking control. Based on the quadcopter nonlinear dynamics model which is obtained by using the Euler–Lagrange approach, the tracking controller is devised via the backstepping control technique. Besides, an adaptive law is proposed to deal with the system parameterized uncertainties and to guarantee that the control input is finite. In addition, the vehicle’s vertical descending acceleration is ensured to not exceed the gravitational acceleration by making use of a barrier Lyapunov function. It is shown that the suitable parameter estimator is stable and the tracking errors are guaranteed to be asymptotically stable simultaneously. By prescribing certain flight conditions, we use numerical simulations to compare the control performance of our method to that of existing approaches. The simulation results demonstrate the effectiveness of the proposed algorithm.}
+}
+
+@inproceedings{nguyen2019machine,
+  title={A machine learning-based approach for the prediction of electricity consumption},
+  author={Nguyen, Dinh Hoa and Nguyen, Anh Tung},
+  booktitle={2019 12th Asian Control Conference (ASCC)},
+  pages={1301--1306},
+  year={2019},
+  organization={IEEE},
+  pdf = {2019_ASCC_Hoa},
+  abstract = {Balancing the power supply and demand is one of the most fundamental and important problems for the operation and control of any electric power grid. There are multiple ways to guarantee the supply-demand balance, but in this research we focus on one specific method to facilitate it namely the prediction of electricity consumption, which is widely used by utility companies or system operators. It is known that this prediction is challenging because of many reasons, for example, inexact weather forecasts, uncertain consumers' behaviors, etc. Hence, analytical and linear models of electricity consumption might not be able to deal with such issues well. This paper therefore presents a machine learning-based approach to predict electricity consumption, in which an improved radial basis function neural network (iRBF-NN) is proposed, whose inputs are time sampling points, temperature, and humidity associated with the consumption. The parameters of this iRBF-NN are sought by solving an optimization problem where four types of cost functions are used and compared on their performances and computational costs. Afterward, the derived model is employed to predict the future electricity consumption based on the hourly forecasts of temperature and humidity. Finally, simulation results for realistic data in Tokyo are presented to illustrate the efficiency of the proposed approach.}
+}
+
+@inproceedings{nguyen2019approach,
+  title={An Approach for The Electricity Consumption Prediction based on Artificial Neural Network},
+  author={Nguyen, Dinh Hoa and Nguyen, Anh Tung},
+  booktitle={2019 SICE International Symposium on Control Systems (SICE ISCS)},
+  pages={78--83},
+  year={2019},
+  organization={IEEE},
+  pdf = {2019_ISCS_Hoa},
+  doi = {10.23919/SICEISCS.2019.8758717},
+  abstract = {This paper studies the day-ahead prediction of electricity consumption for power supply-demand balance in electric power networks. To handle the uncertainties in weather forecast and the nonlinearity relation between the electricity consumption and the weather conditions, this paper proposes a Radial Basis Function like Artificial Neural Network (RBF-like ANN) model with temperature, humidity, and sampling times as inputs. Then the Least Absolute Deviation, i.e., the L 1 norm condition, is employed as the optimization cost which is minimized in the model training process. To solve the L 1 optimization problem, two approaches, namely least square (L 2 ) based and alternating direction method of multipliers (ADMM), are utilized and compared. The simulations on real data collected in California shows that the latter approach performs better, and the number of neurons does not affect much to the prediction performance of the latter approach while it does influence on that of the former approach. Further, the proposed RBF-like ANN model equipped with ADMM solving approach provides reasonably good prediction of the electricity consumption in spite of the imprecise weather forecast.}
+}
+
+
+
 
 
