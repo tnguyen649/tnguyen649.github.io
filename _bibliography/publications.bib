@@ -47,12 +47,14 @@
 @inproceedings{Li_CDC2023,
 	address={},
 	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
-	booktitle = {Accepted to IEEE Conference on Decisions and Control (CDC)},
+	booktitle = {IEEE Conference on Decisions and Control (CDC)},
 	title = {Secure State Estimation with Asynchronous Measurements against Malicious  Measurement-data and Time-stamp Manipulation},
 	year = {2023},
+  doi = {10.1109/CDC49753.2023.10383571},
 	arxiv={2303.17514},
 	abstract = {This paper proposes a secure state estimation scheme with non-periodic asynchronous measurements for linear continuous-time systems under false data attacks on the measurement transmit channel. After sampling the output of the system, a sensor transmits the measurement information in a triple composed of sensor index, time-stamp, and measurement value to the fusion center via vulnerable communication channels. The malicious attacker can corrupt a subset of the sensors through (i) manipulating the time-stamp and measurement value; (ii) blocking transmitted measurement triples; or (iii) injecting fake measurement triples. To deal with such attacks, we propose the design of local estimators based on observability space decomposition, where each local estimator updates the local state and sends it to the fusion center after sampling a measurement. Whenever there is a local update, the fusion center combines all the local states and generates a secure state estimate by adopting the median operator. We prove that local estimators of benign sensors are unbiased with stable covariance. Moreover, the fused central estimation error has bounded expectation and covariance against at most p corrupted sensors as long as the system is 2p-sparse observable. The efficacy of the proposed scheme is demonstrated through an application on a benchmark example of the IEEE 14-bus system.},
 	published={1},
+  pdf = {2023_CDC_Li},
 	tag={10005}
 }
 
@@ -62,8 +64,10 @@
 	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira and A. Medvedev},
 	booktitle = {IFAC World Congress},
 	title = {Optimal Detector Placement in Networked Control Systems under Cyber-attacks with Applications to Power Networks},
-  	tag = {10005},
+  tag = {10005},
 	year = {2023},
+  doi = {10.1016/j.ifacol.2023.10.1896},
+  pdf = {2023_IFACWC_Tung},
 	arxiv={2304.05710},
 	abstract={This paper proposes a game-theoretic method to address the problem of optimal detector placement in a networked control system under cyber-attacks. The networked control system is composed of interconnected agents where each agent is regulated by its local controller over unprotected communication, which leaves the system vulnerable to malicious cyber-attacks. To guarantee a given local performance, the defender optimally selects a single agent on which to place a detector at its local controller with the purpose of detecting cyber-attacks. On the other hand, an adversary optimally chooses a single agent on which to conduct a cyber-attack on its input with the aim of maximally worsening the local performance while remaining stealthy to the defender. First, we present a necessary and sufficient condition to ensure that the maximal attack impact on the local performance is bounded, which restricts the possible actions of the defender to a subset of available agents. Then, by considering the maximal attack impact on the local performance as a game payoff, we cast the problem of finding optimal actions of the defender and the adversary as a zero-sum game. Finally, with the possible action sets of the defender and the adversary, an algorithm is devoted to determining the Nash equilibria of the zero-sum game that yield the optimal detector placement. The proposed method is illustrated on an IEEE benchmark for power systems.}
 }
@@ -95,3 +99,15 @@
   tag = {10005},
   arxiv = {2205.14001}
 }
+
+@inproceedings{nguyen2023distributed,
+  title={Distributed formation trajectory planning for multi-vehicle systems},
+  author={Nguyen, Binh and Nghiem, Truong and Nguyen, Linh and Nguyen, Tung and La, Hung and Sookhak, Mehdi and Nguyen, Thang},
+  booktitle={2023 American Control Conference (ACC)},
+  pages={1325--1330},
+  year={2023},
+  organization={IEEE}
+}
+
+
+
