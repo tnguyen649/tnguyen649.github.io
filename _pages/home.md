@@ -17,12 +17,5 @@ He was born in 1995, Hanoi city, Vietnam. He received the Degree of Engineer in 
 
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/Tung1.jpg" class="img-responsive" width="100%" class="center"/> -->
 
-
-### Research
-
-My research 
-
-
-See my ongoing projects at our [Research](research).
  
  
