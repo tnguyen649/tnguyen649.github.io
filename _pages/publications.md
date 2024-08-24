@@ -3,7 +3,7 @@ title: "Tung Nguyen - Publications"
 layout: gridlay
 excerpt: "Tung Nguyen -- Publications."
 sitemap: false
-years: [2023, 2022, 2020, 2019, 2017]
+years: [2024, 2023, 2022, 2020, 2019, 2017]
 permalink: /publications/
 ---
 <!-- _pages/publications.md -->
