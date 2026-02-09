@@ -5,19 +5,11 @@
 
 
 %%%%%%%%%%%%%%%%% Under Review
-@article{Nguyen_TAC2024,
-	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
-	journal = {IEEE Trans. Automatic Control (Submitted)},
-	title = {Scalable and Optimal Security Allocation in Networks against Stealthy Injection Attacks},
-	abstract={This paper addresses the security allocation problem in a networked control system under stealthy injection attacks. The networked system is comprised of interconnected subsystems which are represented by nodes in a digraph. An adversary compromises the system by injecting false data into several nodes with the aim of maximally disrupting the performance of the network while remaining stealthy to a defender. To minimize the impact of such stealthy attacks, the defender, with limited knowledge about attack policies and attack resources, allocates several sensors on nodes to impose the stealthiness constraint governing the attack policy. We provide an optimal security allocation algorithm to minimize the expected attack impact on the entire network. Furthermore, under a suitable local control design, the proposed security allocation algorithm can be executed in a scalable way. Finally, the obtained results are validated through several numerical examples.},
-	published={0},
-  arxiv={2411.15319},
-	tag = {10005}
-}
 
-@article{Li_TAC2025,
+
+@article{Li_TAC2026,
 	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
-	journal = {IEEE Trans. Automatic Control (Submitted)},
+	journal = {IEEE Trans. Automatic Control (Conditionally Accepted)},
 	title = {Secure Filtering against Spatio-Temporal False Data Attacks under Asynchronous Sampling},
   abstract = {This paper addresses the secure state estimation problem for continuous linear time-invariant systems with non-periodic and asynchronous sampled measurements, where the sensors need to transmit not only measurements but also sampling time-stamps to the fusion center. This measurement and communication setup is well-suited for operating large-scale control systems and, at the same time, introduces new vulnerabilities that can be exploited by adversaries through (i) manipulation of measurements, (ii) manipulation of time-stamps, (iii) elimination of measurements, (iv) generation of completely new false measurements, or a combination of these attacks. To mitigate these attacks, we propose a decentralized estimation algorithm in which each sensor maintains its local state estimate asynchronously based on its measurements. The local states are synchronized through time prediction and fused after time-stamp alignment. In the absence of attacks, state estimates are proven to recover the optimal Kalman estimates by solving a weighted least square problem. In the presence of attacks, solving this weighted least square problem with the aid of $\ell_1$ regularization provides secure state estimates with uniformly bounded error under an observability redundancy assumption. The effectiveness of the proposed algorithm is demonstrated using a benchmark example of the IEEE 14-bus system.},
   arxiv = {2411.19765},
@@ -25,30 +17,40 @@
 	tag = {}
 }
 
+
+%%%%%%%%%%% Up: under review
+@article{Nguyen_TAC2026,
+	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
+	journal = {IEEE Trans. Automatic Control},
+	title = {Scalable and Optimal Security Allocation in Networks against Stealthy Injection Attacks},
+	abstract={This paper addresses the security allocation problem in a networked control system under stealthy injection attacks. The networked system is comprised of interconnected subsystems which are represented by nodes in a digraph. An adversary compromises the system by injecting false data into several nodes with the aim of maximally disrupting the performance of the network while remaining stealthy to a defender. To minimize the impact of such stealthy attacks, the defender, with limited knowledge about attack policies and attack resources, allocates several sensors on nodes to impose the stealthiness constraint governing the attack policy. We provide an optimal security allocation algorithm to minimize the expected attack impact on the entire network. Furthermore, under a suitable local control design, the proposed security allocation algorithm can be executed in a scalable way. Finally, the obtained results are validated through several numerical examples.},
+	published={1},
+  year={2026},
+  arxiv={2411.15319},
+	tag = {10005}
+}
+
+@inproceedings{Dong_ACC2026,
+	author = {J. Dong and K. Zhang and A. T. Nguyen and A. M. H. Teixeira},
+	title = {Unification of output-to-output and input-to-input gains for anomaly detection and their fundamental limitations},
+  booktitle = {2026 American Control Conference (Accepted)},
+  abstract={This study establishes a connection between the output-to-output gain (OOG), a sensitivity metric quantifying the impact of stealthy attacks, and a novel input-to-input gain (IIG) introduced to evaluate fault sensitivity under disturbances, and investigates their fundamental performance limitations arising from the transmission zeros of the underlying dynamical system. Inspired by the OOG, which characterizes the maximum performance loss caused by stealthy attacks, the IIG is proposed as a new measure of robust fault sensitivity, and is defined as the maximum energy of undetectable faults for a given disturbance intensity. Then, using right (for OOG) and left (for IIG) co-prime factorizations, both metrics are expressed as the H∞ norm of a ratio of the numerator factors. This unified representation facilitates a systematic analysis of their fundamental limitations. Subsequently, by utilizing the Poisson integral relation, theoretical bounds for the IIG and OOG are derived, explicitly characterizing their fundamental limitations imposed by system \mbox{non-minimum} phase (NMP) zeros. Finally, a numerical example is employed to validate the results.},
+  arxiv={2509.11194},
+	published={1},
+	year={2026},
+	tag={}
+}
+
 @inproceedings{Nguyen_CDC2025,
 	author = {A. T. Nguyen and Q. Zhu and A. M. H. Teixeira},
 	title = {Bilateral Cognitive Security Games in Networked Control Systems under Stealthy Injection Attacks},
-  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Submitted)},
-  abstract={},
+  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
+  abstract={This paper studies a strategic security problem in networked control systems under stealthy false data injection attacks. The security problem is modeled as a bilateral cognitive security game between a defender and an adversary, each possessing cognitive reasoning abilities. The adversary with an adversarial cognitive ability strategically attacks some interconnections of the system with the aim of disrupting the network performance while remaining stealthy to the defender. Meanwhile, the defender with a defense cognitive ability strategically monitors some nodes to impose the stealthiness constraint with the purpose of minimizing the worst-case disruption caused by the adversary. Within the proposed bilateral cognitive security framework, the preferred cognitive levels of the two strategic agents are formulated in terms of two newly proposed concepts, cognitive mismatch and cognitive resonance. Moreover, we propose a method to compute the policies for the defender and the adversary with arbitrary cognitive abilities. A sufficient condition is established under which an increase in cognitive levels does not alter the policies for the defender and the adversary, ensuring convergence. The obtained results are validated through numerical simulations.},
   arxiv={2505.01232},
-	published={0},
-	year={},
+	published={1},
+	year={2025},
 	tag={}
 }
-
-@inproceedings{Dong_CDC2025,
-	author = {J. Dong and K. Zhang and A. T. Nguyen and A. M. H. Teixeira},
-	title = {Unification of output-to-output and input-to-input gains for anomaly detection and their fundamental limitations},
-  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Submitted)},
-  abstract={},
-  arxiv={},
-	published={0},
-	year={},
-	tag={}
-}
-
-
-%%%%%%%%%%% Up: under review
 
 @inproceedings{Nguyen_NecSys2025,
 	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
